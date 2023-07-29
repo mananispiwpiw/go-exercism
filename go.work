@@ -2,6 +2,7 @@ go 1.20
 
 use (
 	./go/bird-watcher
+	./go/booking-up-for-beauty
 	./go/card-tricks
 	./go/lasagna-master
 )
