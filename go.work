@@ -7,4 +7,5 @@ use (
 	./go/chessboard
 	./go/gross-store
 	./go/lasagna-master
+	./go/logs-logs-logs
 )
