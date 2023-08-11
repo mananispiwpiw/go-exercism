@@ -4,6 +4,9 @@ use (
 	./go/bird-watcher
 	./go/booking-up-for-beauty
 	./go/card-tricks
+	./go/chessboard
+	./go/election-day
 	./go/gross-store
 	./go/lasagna-master
+	./go/logs-logs-logs
 )
