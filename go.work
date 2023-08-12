@@ -1,6 +1,7 @@
 go 1.20
 
 use (
+	./go/airport-robot
 	./go/bird-watcher
 	./go/booking-up-for-beauty
 	./go/card-tricks
