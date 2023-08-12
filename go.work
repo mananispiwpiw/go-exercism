@@ -6,6 +6,7 @@ use (
 	./go/card-tricks
 	./go/chessboard
 	./go/election-day
+	./go/elons-toys
 	./go/gross-store
 	./go/lasagna-master
 	./go/logs-logs-logs
