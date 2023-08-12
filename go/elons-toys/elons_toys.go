@@ -24,14 +24,18 @@ func (c *Car) DisplayBattery() string {
 
 // TODO: define the 'CanFinish(trackDistance int) bool' method
 func (c *Car) CanFinish(trackDistance int) bool {
-	remainingDistance := trackDistance - c.speed
-	c.battery -= c.batteryDrain
-	if remainingDistance > c.battery {
-		return false
-	} else {
-		return true
-	}
+	remainingDistance := (c.battery / c.batteryDrain) * c.speed
+	return remainingDistance >= trackDistance
 }
+
+// name: "Car has 40% battery. Car can finish the race",
+// 			car: Car{
+// 				speed:        5,
+// 				batteryDrain: 2,
+// 				battery:      40,
+// 			},
+// 			trackDistance: 100,
+// 			expected:      true,
 
 // Your first steps could be to read through the tasks, and create
 // these functions with their correct parameter lists and return types.
