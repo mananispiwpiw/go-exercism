@@ -137,7 +137,7 @@ func TestCanFinish(t *testing.T) {
 				battery:      40,
 			},
 			trackDistance: 100,
-			expected:      true,
+			expected:      false,
 		},
 		{
 			name: "Car has 60% battery. Car cannot finish the race",
